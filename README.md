@@ -69,21 +69,10 @@ Ensure these are configured in platform projects before running on devices.
   - `IOcrService` (local or cloud implementation)
 - Platforms: platform-specific permissions and setup
 
-## Troubleshooting
-- Emulator/device not detected: check __Device Manager__ (Android) and ensure platform tooling is installed.
-- Permission errors: verify platform-specific manifests/capabilities.
-- Workload issues: run `dotnet workload restore` and restart Visual Studio.
-- iOS build on Windows: pair to a Mac via __Tools > iOS > Pair to Mac__.
+
 
 ## Roadmap (Optional)
 - Multi-language OCR
 - Text regions and confidence overlays
 - Save/export recognized text
 - Batch processing
-
-## Security
-- Never commit API keys. Use secure storage or developer secrets.
-- If using cloud OCR, monitor usage and costs.
-
-## License
-Specify your license here.
