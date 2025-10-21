@@ -1,0 +1,100 @@
+# Visual Studio / .NET
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# Build outputs
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+artifacts/
+Debug/
+Release/
+x64/
+x86/
+[Aa][Rr][Mm]*/
+[Aa][Rr][Mm]64/
+
+# NuGet
+packages/
+*.nupkg
+!packages/build/
+.nuget/packages/
+
+# Logs
+*.log
+*.tlog
+
+# Tests and benchmarking
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+.vscode/test*
+BenchmarkDotNet.Artifacts/
+
+# IDEs / tooling
+.vscode/
+.idea/
+*.DotSettings.user
+.ReSharper*/
+_ReSharper.Caches/
+*.sln.iml
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# .NET MAUI packaging artifacts
+AppPackages/
+BundleArtifacts/
+BundleArtifactsV2/
+
+# Android
+*.apk
+*.ap_
+*.aab
+*.aar
+*.keystore
+*.jks
+*.keystore.lock
+Platforms/Android/**/google-services.json
+
+# Apple (iOS / macOS / Mac Catalyst)
+*.ipa
+*.app
+*.dSYM
+*.dSYM.zip
+*.mobileprovision
+*.provisionprofile
+*.p12
+*.cer
+*.key
+Platforms/iOS/**/GoogleService-Info.plist
+Platforms/MacCatalyst/**/GoogleService-Info.plist
+
+# Windows (WinUI)
+*.appx
+*.appxbundle
+*.msix
+*.msixbundle
+*.appxupload
+Package.StoreAssociation.xml
+
+# Environment and publish secrets
+.env
+.env.*
+secrets.json
+**/*.pubxml.user
+Properties/PublishProfiles/*.pubxml.user
+
+# Code coverage
+coverage/
+lcov.info
+
+# Optional: JS tooling (if used by build scripts)
+node_modules/
